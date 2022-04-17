@@ -1,0 +1,51 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top:0; left:0; right:0;
+    padding:3rem 9%;
+    z-index: 1000;
+    background: #fff;
+}
+
+header .logo{
+    font-size: 2.5rem;
+    color:var(--black);
+    font-weight: bold;
+}
+
+header .logo span{
+    color:var(--yellow);
+}
+
+ header Nav a  {
+     margin: 0 1rem;
+    font-size: 1.7rem;
+    color: var(--black) !important;
+ }
+
+
+
+ .home{
+    padding-top: 10rem;
+    text-align: center;
+    display: block;
+    margin: auto;
+    
+}
+
+.home h3{
+    color:var(--black);
+    font-size: 7.5vw;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.home image{
+    margin:1rem 0;
+    display: block;
+}
+
+.buton button {
+    font-weight: bold !important;
+}
